@@ -1,0 +1,7 @@
+name: oh hai gha
+on: workflow_dispatch
+job:
+  say-oh-hai:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo oh hai
