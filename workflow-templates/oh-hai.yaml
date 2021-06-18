@@ -1,6 +1,6 @@
 name: oh hai gha
 on: workflow_dispatch
-job:
+jobs:
   say-oh-hai:
     runs-on: ubuntu-latest
     steps:
